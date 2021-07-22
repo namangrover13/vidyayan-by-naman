@@ -1,0 +1,37 @@
+.path{
+    padding: 10vh 0;
+}
+.path-div{
+    margin: 10vh 0 0 0;
+    width: 100%;
+}
+.path-banner{
+    position: relative;
+    left: 26vw;
+    cursor: pointer;
+}
+.path-img{
+    padding: 0 2vw;
+    position: relative;
+    left: 0vw;
+    background-color: #EAE7FB;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 700px) {
+    .path{
+        padding: 5vh 0;
+    }
+    .path-div{
+        margin: 5vh 0;
+    }
+    .path-img{
+        width: 100%;
+        left: 0vw;
+    }
+    .path-banner{
+        width: 60vw;
+        left: 20vw;
+    }
+  }

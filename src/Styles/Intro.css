@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.intro{
+    display: flex;
+    justify-content: center;
+}
+.intro-content{
+    position: relative;
+    top: 10vh;
+    left: 5vw;
+
+}
+.intro-head{
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.intro-text{
+    font-size: 19px;
+    line-height: 23px;
+    color: #434040;
+    width: 26vw;
+    margin-top: 20px;
+}
+.intro-btn{
+    cursor: pointer;
+    width: 163px;
+    height: 44px;
+    background: #FB5B16;
+    border-radius: 14px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-size: 19px;
+    position: absolute;
+    top: 22vh;
+    left: 6.5vw;
+}
+.intro-btn:hover{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.15s;
+}
+.intro-img{
+    z-index: 20;
+    position: relative;
+    top: -1vh;
+    right: -3vw;
+    width: 45vw;
+}
+
+@media only screen and (max-width: 700px) {
+    .intro{
+        flex-direction: column-reverse;
+        height: 55vh;
+    }
+    .intro-img{
+        width: 85vw;
+        right: -6vw;
+        top: 3vh;
+    }
+    .intro-content{
+        top: 4vh;
+        margin: auto;
+        left: 0;
+    }
+    .intro-head{
+        font-size: 30px;
+    }
+    .intro-text{
+        font-size: 18px;
+        width: 75vw;
+        margin: 2vh auto 0 auto;
+    }
+    .intro-btn{
+        font-size: 18px;
+        width: 130px;
+        height: 38px;
+        margin: 0;
+        left: 26vw;
+        top: 17vh;
+    }
+  }

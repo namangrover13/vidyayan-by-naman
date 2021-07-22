@@ -1,1 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.nav{
+  background-color: #FB5B16;
+  margin: 0%;
+  height: 70px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding: 12px 25px;
+}
 
+@media only screen and (max-width: 700px) {
+  .nav{
+    height: 50px;
+  }  
+  .logo{
+    font-size: 1.6em;
+    padding: 8px 15px;
+  }
+}
