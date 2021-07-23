@@ -43,7 +43,7 @@
     z-index: 20;
     position: relative;
     top: -1vh;
-    right: -3vw;
+    right: 0vw;
     width: 45vw;
 }
 
@@ -71,11 +71,24 @@
         margin: 2vh auto 0 auto;
     }
     .intro-btn{
+        display: block;
         font-size: 18px;
         width: 130px;
         height: 38px;
-        margin: 0;
+        margin: 0 auto;
         left: 26vw;
         top: 17vh;
     }
+  }
+  @media only screen and (max-width: 480px) {
+      .intro-img{
+            right: 0vw;
+      }
+      .intro-head{
+            font-size: 24px;
+      }
+      .intro-text{
+          font-size: 17px;
+          width: 74vw;
+      }
   }

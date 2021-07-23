@@ -20,16 +20,16 @@ const Features = () => {
             <h5 className="features-tag">Vidyayan Focuses on developing ‘skills’ rather than ‘syntax’, to make children</h5>
             <div className="features-container">
                 <div className="features-div">
-                    {featureOne.map(feature=>(
-                        <Feature imgUrl={feature.imgUrl} name={feature.name} txt={feature.txt} />
+                    {featureOne.map((feature,i)=>(
+                        <Feature key={i} imgUrl={feature.imgUrl} name={feature.name} txt={feature.txt} />
                     ))}
                 </div>
                 <div className="features-img">
                     <img alt="Features" src="images/coding2.svg" />
                 </div>
                 <div className="features-div">
-                    {featureTwo.map(feature=>(
-                        <Feature imgUrl={feature.imgUrl} name={feature.name} txt={feature.txt} />
+                    {featureTwo.map((feature,i)=>(
+                        <Feature key={i} imgUrl={feature.imgUrl} name={feature.name} txt={feature.txt} />
                     ))}
                 </div>
             </div>

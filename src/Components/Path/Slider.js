@@ -32,9 +32,11 @@ const Slider = () => {
   return (
     <div className="slider">
       <Carousel responsive={responsive} autoPlaySpeed={2000} autoPlay={true} showDots={true}>
-        {data.map(product => (
-          <div className="slider-card">
+        {data.map((product,i) => (
+          
+          <div key={i} className="slider-card">
             <img
+              alt={product.name}
               className="slider-image"
               style={{borderRadius: "5px"}}
               src={product.imgUrl}

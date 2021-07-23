@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+.working{
+    padding: 2vh 2vw;
+}
+.working-head{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #590BB2;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.working-div{
+    margin: 4vh 2vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.step{
+    display: flex;
+    margin: 5vh 2vw;
+}
+.step-id{
+    background-color: #590BB2;
+    color: #fff;
+    text-align: center;
+    margin: 1vh 2vw;
+    padding: 0.2vh;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.step-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    color: #373365;
+
+}
+.step-txt{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #373365;
+    width: 25vw;
+}
+.working-banner{
+    cursor: pointer;
+    display: block;
+    margin: 4vh auto;
+}
+@media only screen and (max-width: 700px) {
+    .working-img{
+        display: none;
+    }
+    .step-id{
+        font-size: 20px;
+        height: 26px;
+        width: 26px;
+        margin: 0vh 2vw;
+        padding: 0 0 0.5vh 0;
+    }
+    .step-txt{
+        width: 45vh;
+        font-size: 15px;
+    }
+    .step-name{
+        font-size: 18px;
+    }
+    .working-banner{
+        width: 45vh;
+        margin: 1vh auto;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+      .step-txt{
+          width: 40vh;
+      }
+      .step-id{
+        font-size: 18px;
+        height: 25px;
+        width: 25px;
+        margin: 0vh 2vw;
+        padding: 0 0 0.5vh 0;
+      }
+      .working-banner{
+          width: 40vh;
+      }
+      
+}

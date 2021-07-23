@@ -2,6 +2,7 @@ import './App.css';
 import Features from './Components/Features';
 import Header from './Components/Header';
 import Path from './Components/Path';
+import Working from './Components/Working';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Features />
       <Path />
+      <Working />
     </div>
   );
 }

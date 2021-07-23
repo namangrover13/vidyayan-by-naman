@@ -6,9 +6,9 @@
     width: 100%;
 }
 .path-banner{
-    position: relative;
-    left: 26vw;
     cursor: pointer;
+    display: block;
+    margin: 4vh auto;
 }
 .path-img{
     padding: 0 2vw;
@@ -32,6 +32,10 @@
     }
     .path-banner{
         width: 60vw;
-        left: 20vw;
     }
+  }
+  @media only screen and (max-width: 480px) {
+      .path-img{
+          width: 99%;
+      }
   }
